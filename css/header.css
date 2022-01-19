@@ -1,0 +1,111 @@
+.header {
+    min-height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 38px;
+    box-shadow: 0px 2px 10px 0px #1F262C12;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    z-index: 3;
+}
+.header__burger-btn{
+    display: none;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.text_logo {
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 65px;
+    color: #2F3539;
+    margin-left: 20px;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+}
+
+.location {
+    margin-left: 14px;
+    color: #c4c4c4;
+}
+
+.instagram {
+    margin-left: 23px;
+    margin-right: 31px;
+}
+
+.header_link {
+    color: #2F3539;
+    font-weight: 700;
+}
+
+.header_number {   
+    font-size: 18px;  
+    line-height: 21px;
+}
+
+.header_name {
+    font-size: 14px;
+}
+
+.outline_menu {
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    
+    .header {
+        width: 100%;
+        min-height: 62px;
+        margin: 0 22px 0 15px;
+        padding: 0;
+        position: static;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header__burger-btn {
+        display: table;
+        margin-right: 26px;
+    }
+
+    .text_logo {
+        margin-left: 9px;
+        font-size: 18px;
+    }
+
+    .header_loc {
+        display: none;
+    }
+
+    .whatsapp {
+        display: none;
+    }
+
+    .instagram {
+        display: none;
+    }
+
+    .location {
+        display: none;
+    }
+
+    .header_link {
+        display: none;
+    }
+
+
+}
