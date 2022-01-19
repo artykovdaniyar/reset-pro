@@ -1,42 +1,49 @@
-.footer{
-    color: white;
-    background: url("../img/footer-bg.png");
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
-    background-size: cover;
-    padding: 96px 35px 122px 35px;
+.footer {
+	color: white;
+	background: url("../img/footer-bg.png") center center / cover no-repeat;
+	padding: 96px 35px 122px 35px;
 }
-.footer__container{
-    max-width: 630px;
-    margin: 0 auto;
+.footer__container {
+	max-width: 630px;
+	margin: 0 auto;
 }
-.footer__title{
-    font-weight: 800;
-    font-size: 55px;
-    line-height: 67px;
+.footer__title {
+	font-weight: 800;
+	font-size: 55px;
+	line-height: 67px;
 }
-.footer__list{
-    margin-top: 48px;
+.footer__list {
+	margin-top: 48px;
 }
-.footer__item{
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-
+.footer__item {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
 }
-.footer__item:not(:last-child){
-    margin-bottom: 38px;
+.footer__item:not(:last-child) {
+	margin-bottom: 38px;
 }
-.footer__item-icon{
-    margin-right: 15px;
+.footer__item-icon {
+	margin-right: 15px;
 }
-@media (max-width: 769px){
-    .footer{
-        color: white;
-        background: url("../img/footer-bg-mobile.png");
-        background-repeat: no-repeat;
-        background-position: 100% 100%;
-        background-size: cover;
-        padding: 96px 35px 122px 35px;
-    }
+@media (max-width: 769px) {
+	.footer {
+		color: white;
+		background: url("../img/footer-bg-mobile.png") center center / cover no-repeat;
+		background-repeat: no-repeat;
+		background-position: 100% 100%;
+		background-size: cover;
+		padding: 96px 35px 122px 35px;
+	}
+	.footer__title {
+		font-size: 32px;
+		line-height: 39px;
+	}
+	.footer__item {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.footer__item:not(:last-child) {
+		margin-bottom: 30px;
+	}
 }
